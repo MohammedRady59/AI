@@ -73,7 +73,7 @@ function Developers() {
                 >
                   <img
                     src={photos[idx].src}
-                    alt="team"
+                    alt={photos[idx].alt}
                     className="w-full md:w-[350px] object-cover"
                   />
                   <div className="absolute bottom-0 z-20 px-3 translate-y-[75%] group-hover:translate-y-0 transition-transform duration-300 group-hover:bg-[#00000070] h-full">

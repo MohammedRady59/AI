@@ -25,6 +25,12 @@ body {
   background-position: center;
   padding-block: 60px;
 }
+.portfolio {
+  background-image: url("./assets/imgs/background-8.png");
+  background-size: cover;
+  background-position: center;
+  padding-block: 60px;
+}
 
 .bluritem {
   backdrop-filter: blur(10px);

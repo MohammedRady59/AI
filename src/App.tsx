@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Developers from "./components/Developers";
 import Model from "./components/Model";
+import Protoflio from "./components/Protoflio";
+import Articles from "./components/Articles";
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
           <Business />
           <Developers />
           <Model />
+          <Protoflio />
+          <Articles />
         </div>
       </div>
     </>
