@@ -10,7 +10,9 @@ function NavAndTab() {
   return (
     <TabGroup className={"mt-4"}>
       <TabList
-        className={"flex justify-center items-center gap-9  font-bold text-lg"}
+        className={
+          "flex justify-center items-center gap-9  font-bold text-lg  flex-wrap    "
+        }
       >
         <Tab>
           {" "}
